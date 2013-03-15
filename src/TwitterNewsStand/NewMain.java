@@ -35,7 +35,7 @@ public class NewMain {
         CredibilityComp credibility = new CredibilityComp();
         CategoriesClassifier cc = new CategoriesClassifier("Category_index2");
         NaiveBayesCategories bayesCategories = new NaiveBayesCategories();
-        GeoTagging myGeoTagger = new GeoTagging();
+        //GeoTagging myGeoTagger = new GeoTagging();
 
         //Test Code                                    
         while (true) {
