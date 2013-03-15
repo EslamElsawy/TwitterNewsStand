@@ -42,7 +42,7 @@ public class test {
         Query q = new QueryParser(Version.LUCENE_36, "", analyzer).parse(original);
         return q.toString();
     }
-
+// tesing
     public static void main(String[] args) throws IOException ,ParseException{
         BufferedReader NewTrainingFile = new BufferedReader(new FileReader(
                 "nNews.txt"));
