@@ -43,6 +43,7 @@ public class test {
         return q.toString();
     }
 // tesing
+// testing    
     public static void main(String[] args) throws IOException ,ParseException{
         BufferedReader NewTrainingFile = new BufferedReader(new FileReader(
                 "nNews.txt"));
